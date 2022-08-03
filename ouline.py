@@ -1,7 +1,7 @@
 #import beautifulsoup and request here
 
 
-#function to get job list from url 'https://www.monster.com/jobs/search?q={role}&where={location}'
+#function to get job list from url https://www.monster.com/jobs/search?q={role}&where={location}
 def getJobList(role,location):
     url = 'https://www.monster.com/jobs/search?q={role}&where={location}'
     # Complete the missing part of this function here
